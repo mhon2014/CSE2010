@@ -1,0 +1,10 @@
+CustomerOrder 1000 Reynold 1 1
+CustomerOrder 1010 Sarah 5 0
+CustomerOrder 1011 George 1 0
+CustomerOrder 1015 Bill 1 2
+CustomerOrder 1023 Caesar 1 5
+PrintAvailableWorkerList 1024
+CustomerOrder 1032 Tom 1 0
+PrintAvailableWorkerList 1033
+PrintWorkerAssignmentList 1034
+PrintMaxFulfillmentTime 1035

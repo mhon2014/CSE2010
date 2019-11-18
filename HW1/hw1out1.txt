@@ -1,0 +1,21 @@
+CustomerOrder 1000 Reynold 1 1
+WorkerAssignment 1000 Alice Reynold
+CustomerOrder 1010 Sarah 5 0
+CustomerOrder 1011 George 1 0
+OrderCompletion 1012 Reynold
+CustomerOrder 1015 Bill 1 2
+WorkerAssignment 1015 Bob Sarah George
+WorkerAssignment 1015 Carol Bill
+CustomerOrder 1023 Caesar 1 5
+WorkerAssignment David 1023 Caesar
+AvailableWorkerList Emily Alice
+OrderCompletion 1026 Sarah
+OrderCompletion 1026 George
+OrderCompletion 1028 Bill
+CustomerOrder 1032 Tom 1 0
+AvailableWorkerList Emily Alice Bob Carol
+WorkerAssignmentList David:Caesar
+MaxFulfillmentTime 16
+WorkerAssignment 1037 Emily Tom
+OrderCompletion 1039 Caesar
+OrderCompletion 1043 Tom
