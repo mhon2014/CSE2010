@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "stringparselist.h": "c",
+        "pqinterface.h": "c"
+    }
+}

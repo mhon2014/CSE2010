@@ -1,0 +1,21 @@
+UpdateMinimumAcceptablePrice 1000 25.00
+EnterBid 1001 Alice 20.20 1
+EnterBid 1002 Bob 21.10 1
+EnterBid 1003 Carol 22.20 3
+EnterBid 1004 David 23.50 1
+EnterBid 1005 Ellen 21.60 1
+EnterBid 1007 Gina 23.80 1
+EnterBid 1008 Harold 23.80 1
+EnterBid 1009 Irene 23.95 1
+DisplayHighestBid 1010 Irene 1009 23.95 1
+SellOneItem 1015 HightestBiddingPriceIsTooLow
+EnterBid 1025 Frank 25.60 2
+DisplayHighestBid 1030 Frank 1025 25.60 2
+SellOneItem 1035 Frank 25.60
+SellOneItem 1036 Frank 25.60
+SellOneItem 1037 HightestBiddingPriceIsTooLow
+UpdateBid 1038 Ellen 24.00 1
+DisplayHighestBid 1040 Ellen 1038 24.00 1
+UpdateMinimumAcceptablePrice 1100 23.95
+SellOneItem 1105 Ellen 24.00 1
+DisplayHighestBid 1110 Irene 1009 23.95 1

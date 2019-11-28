@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Build & Debug C/C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/hw4",
+            "args": ["hw4in1.txt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build"
+        },
+
+        {
+            "name": "Build & Run C/C++",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "args": ["hw4in1.txt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build",
+            "internalConsoleOptions": "openOnSessionStart",
+            "logging": {
+                "moduleLoad": false
+             },
+             "targetArchitecture": "x64"
+        },
+
+        {
+            "name": "Run C/C++",
+            "type": "cppdbg", //ccp debugger
+            "request": "launch", //no idea
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}", //current worksapce/executable
+            "args": ["hw4in1.txt"], //arguments
+            "stopAtEntry": false,   //false to not stop at the start of the program
+            "cwd": "${workspaceFolder}", //current working directory
+            "environment": [],
+            "externalConsole": false, //false: don't open external terminal/console
+            "MIMode": "lldb",   //mac debugger: lldb, windows/linux: gdb
+            "internalConsoleOptions": "openOnSessionStart", //on start go to debug console
+            "logging": {
+                "moduleLoad": false //don't flood console with debug messages
+             },
+             "targetArchitecture": "x64", //optional
+        },
+
+        {
+            "name": "Build & Run C/C++ extra",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/${fileBasenameNoExtension}",
+            "args": ["hw4in1extra.txt"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "Build",
+            "internalConsoleOptions": "openOnSessionStart",
+            "logging": {
+                "moduleLoad": false
+             },
+             "targetArchitecture": "x64"
+        }
+    ]
+}
