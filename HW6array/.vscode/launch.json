@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)",
+            "request": "launch",
+            "mainClass": "hw6",
+            "args": "hw6in1friends.txt hw6in1actions.text"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - hw6",
+            "request": "launch",
+            "args": "hw6in1friends.txt hw6in1actions.txt",
+            "mainClass": "hw6"
+        }
+    ]
+}
